@@ -8,9 +8,15 @@ install:
 
 script:
   - npm test
-  
+
 script:
   - npm run cover
+
+script:
+  - npm run check-coverage
+  
+script:
+  - npm run build
 
 # Send coverage data to Coveralls
 after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"

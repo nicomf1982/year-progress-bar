@@ -15,7 +15,5 @@ describe('#yearProgressBar', () => {
     it('should return fancy progress bar', () => {
       let result = yearProgress.fancy();
       expect(result).to.be.a('string');
-;
-
     });
 });

@@ -1,7 +1,9 @@
-#Year Progress Bar#
+#Year Progress Bar# [![Build Status](https://travis-ci.org/nicomf1982/year-progress-bar.svg?branch=master)](https://travis-ci.org/nicomf1982/year-progress-bar)  [![Coverage Status](https://coveralls.io/repos/github/nicomf1982/year-progress-bar/badge.svg?branch=master)](https://coveralls.io/github/nicomf1982/year-progress-bar?branch=master)
 ```
 
 I LIKE THIS BAR 👌 ====>  [0%]-[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░]-[97]
+
+
 ```
 ## ## What is this ?
 ```

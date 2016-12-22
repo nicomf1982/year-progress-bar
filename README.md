@@ -5,7 +5,7 @@ I LIKE THIS BAR 👌 ====>  [0%]-[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓�
 ```
 ## ## What is this ?
 ```
-A simple progress bar to remember you how near to the end (of the year) we are (who needs a calendar 😬)
+you deserve to know the exactly percent of the year we are right now and how much left to finish,  with a number or fancy bar 😬
 ```
 ## ## Installation
 ```
@@ -27,10 +27,6 @@ npm install year-progress-bar
 ```
   npm test
 ```
-
-## ##  Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
 ## ##  License
 

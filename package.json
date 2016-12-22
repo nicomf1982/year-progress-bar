@@ -1,0 +1,18 @@
+{
+  "name": "year-progress-bar",
+  "version": "1.0.0",
+  "description": "A simple progress bar to remember you how near to the end (of the year) we are (who needs a calendar)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Nicomf1982 <nicomf1982@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}

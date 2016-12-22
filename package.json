@@ -7,9 +7,13 @@
     "test": "node_modules/.bin/mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "check-coverage": "node_modules/istanbul/lib/cli.js check-coverage --statements 70 --branches 70 --functions 70 --lines 70",
-    "precommit": "npm run cover && npm run check-coverage",
-    "prebuild": "npm run check-coverage && rm -rf dist && mkdir dist",
+    "prebuild": "npm run cover && npm run check-coverage && rm -rf dist && mkdir dist",
     "build": "babel src/index.js --out-file dist/index.js --presets es2015"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run cover && npm run check-coverage"
+    }
   },
   "author": "Nicomf1982 <nicomf1982@gmail.com>",
   "license": "MIT",

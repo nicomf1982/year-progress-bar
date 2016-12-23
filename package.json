@@ -2,13 +2,13 @@
   "name": "year-progress-bar",
   "version": "1.0.0",
   "description": "you deserve to know the exactly percent of the year we are right now and how much left to finish,  with a number or fancy bar",
-  "main": "dist/index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "check-coverage": "node_modules/istanbul/lib/cli.js check-coverage --statements 70 --branches 70 --functions 70 --lines 70",
-    "prebuild": "npm run cover && npm run check-coverage && rm -rf dist && mkdir dist",
-    "build": "babel src/index.js --out-file dist/index.js --presets es2015",
+    "prebuild": "npm run cover && npm run check-coverage && rm -rf bin && mkdir bin",
+    "build": "babel src/index.js --out-file bin/index.js --presets es2015",
     "precommit": "npm run cover && npm run check-coverage"
   },
   "author": "Nicomf1982 <nicomf1982@gmail.com>",
